@@ -1,4 +1,4 @@
-package com.lvxiaojun.creational.singleton;
+package com.creational.singleton;
 
 /**
  * 单例模式：
