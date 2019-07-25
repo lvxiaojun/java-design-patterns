@@ -4,7 +4,7 @@ package com.creational.factory.simple;
  * 简单工厂
  *
  */
-public class SimpleMobileFactory {
+public class MobileFactory {
 
 	/**
 	    * 静态工厂方法
@@ -15,16 +15,12 @@ public class SimpleMobileFactory {
 		Mobile mobile = null;
 		switch (type) {
 		case 1:
-			mobile = new AppleMobile();
-			mobile.sayHello();
-			break;
-		case 2:
 			mobile = new HuaweiMobile();
-			mobile.sayHello();
+			System.out.println("hello,欢迎使用华为手机！");
 			break;
 		default:
 			mobile = new XiaomiMobile();
-			mobile.sayHello();
+			System.out.println("hello,欢迎使用小米手机！");
 			break;
 		}
 		return mobile;
