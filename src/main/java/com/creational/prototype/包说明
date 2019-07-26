@@ -1,2 +1,3 @@
+Prototype:原型模式
 浅拷贝实例： shallowcopy
 深拷贝实例： deepcopy
