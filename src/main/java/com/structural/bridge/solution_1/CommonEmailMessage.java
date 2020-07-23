@@ -6,7 +6,6 @@ package com.structural.bridge.solution_1;
  */
 public class CommonEmailMessage implements CommonMessage{
 
-	@Override
 	public void send(String message, String user) {
 		
 		message = "*普通*："+message;

@@ -4,7 +4,6 @@ package com.structural.bridge.solution_2;
 */
 public class SystemMessage implements Message{
 
-	@Override
 	public void send(String message, String user) {
 		System.out.println("使用站內消息方式，发送信息【"+message+"】To【"+user+"】");
 	}

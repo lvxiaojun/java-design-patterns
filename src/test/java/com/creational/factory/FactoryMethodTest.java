@@ -14,6 +14,5 @@ public class FactoryMethodTest {
 		
 		factory = new XiaomiFactory();
 		factory.product();
-		
 	}
 }

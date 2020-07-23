@@ -10,7 +10,6 @@ public class PowerAdapter implements MyCharger{
 		this.russiaScoket = russiaScoket;
 	}
 	
-	@Override
 	public void charge() {
 		//这里是使用委托的方式完成特殊功能
 		System.out.println("我是适配类：双脚扁头充电->可以在->双脚圆形插孔充电.");
