@@ -1,4 +1,6 @@
-package com.behavioral.strategy;
+package com.behavioral;
+
+import com.behavioral.strategy.ActivityEnter;
 
 public class StrategyTest {
 

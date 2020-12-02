@@ -12,17 +12,14 @@ public class BallpointPenBuilder implements PenBuilder{
 		pen = new BallpointPen();
 	} 
 	
-	@Override
 	public void buildCartridge() {
 		pen.setCartridge("圆珠笔笔芯");
 	}
 
-	@Override
 	public void buildShell() {
 		pen.setShell("圆珠笔外壳");
 	}
 
-	@Override
 	public Pen buildPen() {
 		return pen;
 	}

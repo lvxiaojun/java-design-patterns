@@ -11,17 +11,14 @@ public class BrushPenBuilder implements PenBuilder{
 		pen = new BrushPen();
 	}
 	
-	@Override
 	public void buildCartridge() {
 		pen.setCartridge("画笔笔芯");
 	}
 
-	@Override
 	public void buildShell() {
 		pen.setShell("画笔外壳");
 	}
 
-	@Override
 	public Pen buildPen() {
 		return pen;
 	}
