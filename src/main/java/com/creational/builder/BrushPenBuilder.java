@@ -1,6 +1,7 @@
 package com.creational.builder;
 
 /**
+ * 【建造者模式】
  * 建造者（具体）---画笔builder
  *
  */

@@ -1,6 +1,7 @@
 package com.creational.builder;
 
 /**
+ * 【建造者模式】
  * 抽象一个产品类
  *
  */

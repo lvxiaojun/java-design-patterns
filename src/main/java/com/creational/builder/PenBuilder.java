@@ -1,6 +1,8 @@
 package com.creational.builder;
 
-
+/**
+ * 【建造者模式】
+ */
 public abstract interface PenBuilder {
 
 	//生产笔芯
